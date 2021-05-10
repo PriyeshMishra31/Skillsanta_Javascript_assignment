@@ -1,0 +1,33 @@
+<!-- Write a JavaScript program function to convert temperatures
+from Celsius, Fahrenheit and Fahrenheit to Celsius as per user
+arguments provide in functions. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Temperature Converter</h2>
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="FahrenheittoCelcius(this.value)" onchange="FahrenheittoCelcius(this.value)">
+</p>
+<p>Celcius: <span id="outputCelcius"></span></p><br>
+<br>
+<br>
+<h2>Temperature Converter</h2>
+<p>
+  <label>Celsius</label>
+  <input id="inputCelsius" type="number" placeholder="Celsius" oninput="CelciustoFahrenheit(this.value)" onchange="CelciustoFahrenheit(this.value)">
+</p>
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+
+    <script src="tempconversion.js"></script>
+
+</body>
+</html>
